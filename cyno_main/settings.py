@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'main',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -81,3 +82,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+
+###############################E mail settings#############################################
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'mail.cyno.co.in'
+EMAIL_HOST_USER = 'abhishek@cyno.co.in'
+EMAIL_HOST_PASSWORD = # to be set by abhishek
+EMAIL_PORT = 993
+EMAIL_USE_TLS = True
