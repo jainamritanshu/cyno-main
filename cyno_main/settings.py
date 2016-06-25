@@ -88,6 +88,6 @@ STATIC_URL = '/static/'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'mail.cyno.co.in'
 EMAIL_HOST_USER = 'abhishek@cyno.co.in'
-EMAIL_HOST_PASSWORD = # to be set by abhishek
+EMAIL_HOST_PASSWORD = '@#$cyno101'
 EMAIL_PORT = 993
 EMAIL_USE_TLS = True
